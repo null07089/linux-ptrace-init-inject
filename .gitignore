@@ -1,0 +1,4 @@
+# Build artifacts
+inject
+*.o
+*.out

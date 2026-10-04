@@ -1,3 +1,9 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/*
+ * linux-ptrace-init-inject - attach to a target process (PID 1 by default)
+ * and execute a command through either system() in the target libc or a
+ * generated raw-syscall fork/clone + execve payload.
+ */
 #include <cctype>
 #include <cerrno>
 #include <cstdint>
